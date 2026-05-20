@@ -1,4 +1,4 @@
-import { Paperclip } from 'lucide-react'
+import { Ticket } from 'lucide-react'
 
 export default function ItemSolicitacao({
   titulo,
@@ -32,7 +32,7 @@ export default function ItemSolicitacao({
             <span>{data}</span>
 
             <div className="flex items-center gap-1">
-              <Paperclip size={16} />
+              <Ticket size={16} />
 
               <span>{arquivo}</span>
             </div>
